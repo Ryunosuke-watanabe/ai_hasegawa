@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+lab = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+jupyterlab = "*"
+gym = "*"
+jsanimation = "*"
+pyglet = "==1.5.0"
+torch = "*"
+torchvision = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
